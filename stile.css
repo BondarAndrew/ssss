@@ -1,0 +1,36 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  height: 120px;
+  background-color: #008071;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.card {
+  background-color: #008d7d;
+  height: 220px;
+  width: 220px;
+  border-radius: 20px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.card-icon {
+  fill: #97d0ca;
+  width: 50px;
+  padding-top: 55px;
+}
+
+.card-text {
+  color: #97d0ca;
+  margin: 0;
+}
